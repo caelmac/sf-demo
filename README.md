@@ -31,3 +31,13 @@ billCustomer
 restoreRedeemPoints
 restoreQuantity
 sqsWorker
+
+
+### AWS Step Function
+AWS Step Functions is a serverless workflow service that lets you coordinate distributed applications and microservices using visual workflows. With Step Functions, you can define workflows that integrate with AWS services, including Lambda functions, ECS tasks, SNS topics, and more.
+
+Step Functions allows you to build applications that automatically respond to state changes, retry operations, and handle errors. You can also use Step Functions to create complex workflows with conditional branching, parallel processing, and error handling.
+
+The core concept of Step Functions is the state machine, which defines the workflow using a JSON or YAML document. The state machine includes a series of states, each of which represents a step in the workflow. Each state can include AWS service integrations, function invocations, and branching logic.
+
+Overall, AWS Step Functions simplifies the process of building and managing complex workflows, making it an ideal choice for serverless applications.
